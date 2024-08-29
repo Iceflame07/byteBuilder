@@ -1,0 +1,23 @@
+'''
+Prompt user to enter the principal amount
+Prompt user to enter the annual interest rate %
+if(10%) 
+30%/100 divide the answer to
+convert annual interest rate to decimal 0.010%/12
+convert annually to monthly
+Prompt user for duration
+calculate the duration by 12 to give us our duration in month
+use answers for your calculations
+'''
+
+principal amount = int(input("Enter the principal amount as 60,000"))
+annual interest = int(input("Enter the annual interest as 0.010%"))
+duration in years = int(input("Enter the duration in years as payment * 12/100"))
+m =7200
+p = 60,000
+r = 0.010%
+n = 200
+
+
+m = P r(1+r)n/(1+r)n-1
+print("display the final result")
