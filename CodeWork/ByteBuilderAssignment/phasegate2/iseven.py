@@ -5,38 +5,12 @@ prompt the computer to print each number with a comma in a single line and save
 prompt the computer to display the result and save
 '''
 
-for i in range(0, 1000, 3000):
+even = int(input("Enter even of numbers between 1000 to 3000:"))
+if range(0, 1000, 3000):
 	print(i)
 
-for(int divsion = 0, division <= range: division++):
-     if(division % 3000 == 0):
-	division /= kata.iseven(number)
+for(int even = 0, even <= range: even++):
+     if(number % 3000 == 0):
+	even % = kata.iseven(number)
 
-	printf(division)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	printf(even)
