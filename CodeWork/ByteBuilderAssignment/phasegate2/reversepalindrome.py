@@ -9,16 +9,21 @@ def is_palindrome(number):
 
  number = 0
 
- user_input = int(input("Enter a number"))
+ user_input = int(input("Enter a number:"))
 
  return "it's a palindrome" if str(number) == str(number)[::-1] else "print it's not a palindrome"
 
-print(is_palindrome(2112))
+print(is_palindrome(4567))
 
-
-def reverse_string(pasegate):
+def reverse_string(word):
 	reverse_word = ''
-	for number in range(len(phasegate)-1, -1, -1):
-		reverse_phasegate += word[number]
+	for number in range(len(word)-1, -1, -1):
+		reverse_word += word[number]
 
-	return reverse_phasegate
+	return reverse_word
+
+
+def palindrome(number):
+	return str(number) == reverse_string(str(number))
+
+print(palindrome("hannah"))

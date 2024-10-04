@@ -5,18 +5,14 @@ prompt the computer to print each number with a comma in a single line and save
 prompt the computer to display the result and save
 '''
 
-for i in range(3000, 200):
- userinput += scores.random(1000)
- print(i)
+for i in range(0, 1000, 3000):
+	print(i)
 
-even = int(input("Enter even_number:"))
-scores = even
+for(int divsion = 0, division <= range: division++):
+     if(division % 3000 == 0):
+	division /= kata.iseven(number)
 
-even += even.insert(1000)
-
-even += scores
-scores.insert(1000)
-print(scores)
+	printf(division)
 
 
 
