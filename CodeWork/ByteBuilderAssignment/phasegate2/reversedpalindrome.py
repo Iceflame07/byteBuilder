@@ -15,6 +15,7 @@ def is_palindrome(number):
 
 print(is_palindrome(4567))
 
+
 def reverse_string(word):
 	reverse_word = ''
 	for number in range(len(word)-1, -1, -1):
