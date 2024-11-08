@@ -1,0 +1,4 @@
+python -m unittest test_cube.py
+
+def get_cube(number):
+	…

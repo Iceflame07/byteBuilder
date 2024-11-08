@@ -1,0 +1,15 @@
+'''
+Prompt the user to enter Celsius degree and save
+Prompt the computer to read a Celsius degree from the console and save
+Prompt the computer to convert the Celsius degree to Fahrenheit and save
+Prompt the computer to convert using the formula: Fahrenheit = (9/5) * Celsius + 32 and save
+Prompt the computer to convert the Fahrenheit and display the result
+'''
+
+def Celsius(degree)
+
+Celsius = float(input("Enter Celsius: "))
+
+degree = 9/5
+
+print(f"celsius_9/5_*_fahrenheit_+_32")

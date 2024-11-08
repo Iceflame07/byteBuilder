@@ -22,4 +22,4 @@ class Test(unittest.TestCase):
 	    self.assertEqual(getpassword("@Sem&iCh90%B57A$"))
 
     def test_that_digits_are_present_function(self):
-	    self.assertEqual(minimum_length, lowercase, uppercase, digits, symbols, "invalid_input")
+	    self.assertEqual(getpassword("@Sem&iCh90%B57A$"))

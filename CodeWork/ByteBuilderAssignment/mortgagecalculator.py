@@ -27,7 +27,7 @@ monthlypaymentfirststep =  (1 + monthlyinterest) ** monthlyduration
 
 monthlypaymentsecondstep = monthlyinterest * monthlypaymentfirststep
 
-monthlypaymentthirdstep = ((1 + monthlyinterest) ** monthlyduration) - 1
+monthlypaymentthirdstep = ((1 + monthlyinterest) ** monthlyduration)) - 1
 
 monthlypayment = principalamount * (monthlypaymentsecondstep / monthlypaymentthirdstep)
 

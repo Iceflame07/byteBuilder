@@ -13,36 +13,36 @@ display the result and save
 
 def credit_card(validator):
 
- number = int(input("Enter card number:"))
-odd = {38}:
+ number = int(input("Enter card_number:"))
+ccNumber = {4388576018402626}
+odd = {38}
 even = {37}
-total = {16}:
-count = {0}:
+total = {16}
+card_number = {16}
 
- for count in range(16):
-	print(count)
+for card in range(16):
+	print(card_number)
 
-  if(count % 10)
-   print("totalNumber is valid!"):
-  else:
-    print("Invalid totalNumber,try again!!!"):
+if(count % 10):
+   print("totalNumber is valid!")
+else:
+    print("Invalid totalNumber,try again!!!")
       
 
-def credit_card(get Card) 
+def credit_card(get_card):
 
-ccNumber = {4388576018402626}:
-VisaCard = {4}:
-mastercard = {5}:
-americanexpress = {37}:
-discover = {6};
+ VisaCard = {4}
+ mastercard = {5}
+ americanexpress = {37}
+ discover = {6}
 
-	if(ccNumber == 4)
-		print("ccNumber is visacard"):
- 	   elif(ccNumber == 5)
-		print("ccNumber is mastercard"):
-	   elif(ccNumber == 37)
-		print("ccNumber is americanexpress"):
-	   elif(ccNumber == 6)
-		print("ccNumber is Discover Card"):
-	else:
-		print("Invalid ccNumber,try again!!!"):
+if(ccNumber == 4):
+	print("ccNumber is visacard")
+elif(ccNumber == 5):
+	print("ccNumber is mastercard")
+elif(ccNumber == 37):
+	print("ccNumber is americanexpress")
+elif(ccNumber == 6):
+	print("ccNumber is Discover Card")
+else:
+	print("Invalid ccNumber,try again!!!")

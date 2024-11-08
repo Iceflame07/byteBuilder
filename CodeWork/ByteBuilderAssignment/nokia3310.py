@@ -31,7 +31,7 @@ if option == 1:
 	8.options
 	9->speed dials
 	10->voice tags
-	""";
+""";
 
 	phonebook_option = int(input(phonebook_menu))
 	if phonebook_option == 1:
@@ -62,7 +62,7 @@ if option == 1:
 	option_menu =""" 
 		1->Type of view
 		2->Memory status
-		""";
+""";
 
 	phonebook_option = int(input(option_menu))
 	if phonebook_option == 1:
@@ -86,7 +86,7 @@ elif option == 2:
 	8->Info service
 	9->Voice mailbox number
 	10->Service command editor
-	""";
+""";
 	
 	messages_option = int(input(messages_menu))
 	if messages_option == 1:
@@ -118,7 +118,7 @@ elif option == 2:
 		1->Message center service
 		2->Message sent as
 		3->Message validity
-		""";
+""";
 
 	set_1_option = int(input(set_1_menu))
 	if set_1_option == 1:
@@ -166,7 +166,7 @@ elif option == 4:
 	6->Show call cost
 	7->Call cost settings
 	8->Prepaid credit
-	""";
+""";
 
 	call_register_option = int(input(call_register_menu))
 	if call_register_option == 1:
@@ -188,7 +188,7 @@ elif option == 4:
 	3->Received calls duration
 	4->Dialed calls duration
 	5->Clear timers
-	""";
+""";
 
 	show_calls_duration_option = int(input(show_calls_duration_menu))
 	if show_calls_duration_option == 1:
@@ -208,7 +208,7 @@ elif option == 4:
 	1->Last call cost
 	2->All calls cost
 	3->Clear counter
-	""";
+""";
 
 	show_calls_cost_option = int(input(show_calls_cost_menu))
 	if show_calls_cost_option == 1:
@@ -223,7 +223,7 @@ elif option == 4:
 	7->call_cost_settings menu ="""
 		1->Call cost limit
 		2->Show costs in
-		""";
+""";
 
 	Call_cost_settings_option = int(input(call_cost_settings_menu))
 		if call_cost_settings_option == 1:
@@ -244,7 +244,7 @@ elif option == 5:
 	7->Warning and game tones
 	8->Viberating alert
 	9->Screen saver
-	""";
+""";
 
 	Tones_option = int(input(tones_menu))
 	if tones_option == 1:
@@ -301,7 +301,7 @@ elif option == 6:
 		4->Network selection
 		5->Lights
 		6->Confirm SIM service actions
-		""";
+""";
 
 	phone_settings_option = int(input(phone_settings_menu))
 	if tones_option == 1:
@@ -327,7 +327,7 @@ elif option == 6:
 	  4->Closed user group
 	  5->Phone security
 	  6->Change access codes
-	  """;
+""";
 
 	security_settings_option = int(input(security_settings_menu))
 	if tones_option == 1:
@@ -347,7 +347,7 @@ elif option == 6:
 	  print("Restore_factory_settings")
 
 	  restore_factory_settings menu ="""
-	  """;
+""";
 
        restore_factory_settings_option = int(input(security_settings_menu))
 	if restore_factory_settings_option == 1:
@@ -358,7 +358,7 @@ elif option == 7:
 	print("Call divert")
 
 	call_divert_menu ="""
-	""";
+""";
 
 	call_divert_option = int(input(call_divert_menu))
 	if call_divert_option == 1:
@@ -369,7 +369,7 @@ elif option == 8:
 	print("Games")
 
 	games_menu ="""
-	""";
+""";
 
 	games_option = int(input(games_menu))
 	if games_option == 1:
@@ -380,7 +380,7 @@ elif option == 9:
 	print("Calculator")
 
 	calculator_menu ="""
-	""";
+""";
 
 	calculator_option = int(input(calculator_menu))
 	if calculator_option == 1:
@@ -390,7 +390,7 @@ elif option == 10:
 	print("Reminder")
 
 	reminder_menu = """
-	"""
+""";
 
 	reminder_option = int(input(reminder_menu))
 	if reminder_option == 1:
@@ -407,7 +407,7 @@ elif option == 11:
 	4->Stopwatch
 	5->Countdown timer
 	6->Auto update of date and time
-	"""
+""";
 
 	clock_option = int(input(clock_menu))
 	if clock_option == 1:
@@ -427,7 +427,7 @@ elif option == 12:
 	print("Profiles")
 
 	profiles_menu ="""
-	""";
+""";
 
 	profiles_option = int(input(profles_menu))
 	if profiles_option == 1:
@@ -437,7 +437,7 @@ elif option == 13:
 	print("Sim_services")
 
 	sim_services_menu ="""
-	""";
+""";
 
 	sim_services_option = int(input(sim_services_menu))
 	if call_divert_option == 1:

@@ -7,5 +7,5 @@ Display password in asterisks
 
 password = input("Enter password: ")
 password_count = len(password)
-Pin = 
+Pin = password
 print("output is", pin * password_count)
